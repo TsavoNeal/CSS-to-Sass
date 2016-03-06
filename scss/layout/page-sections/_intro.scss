@@ -1,0 +1,30 @@
+.intro {
+	margin-bottom: 7.5%;
+		@media #{$brk-narrow} {
+			font-size: 1.25em;
+		}
+		@media #{$brk-wide} {
+			display: inline-block;
+		}
+}
+
+.intro-text {
+	padding: 7.5%;
+		@media #{$brk-narrow} {
+			width: 50%;
+			padding: 0% 5% 10% 2.5%;
+			text-align: left;
+		}
+}
+
+.student-img {
+	width: 80%;
+		@media #{$brk-narrow} {
+			float: right;
+			width: 40%;
+			padding-right: 2.5%;
+		}
+		@media #{$brk-wide} {
+			padding-top: 2%;
+		}
+}

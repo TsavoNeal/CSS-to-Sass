@@ -1,0 +1,35 @@
+// Descriptive color variables
+
+$white                  : #ffffff;
+$grey					: #4a4a4a;
+$peach-orange			: #FFD6A0;
+$tropical-blue			: #C7E3FB;
+$norway-green			: #A9C59D;
+
+
+// Functional color variables
+
+$color-prim         	: $peach-orange;
+$color-sec       	    : $tropical-blue;
+$color-trt              : $norway-green;
+
+$color-text-base        : $grey;
+
+
+// Font stack
+
+$stack-sans-serif       : Helvetica, Arial, sans-serif;
+$stack-oswald 			: 'Oswald', $stack-sans-serif;
+$stack-raleway			: 'Raleway', $stack-sans-serif;
+
+
+// Asset path
+
+$path-img-port  		: '../images/portfolio-images';
+$path-img-serv  		: '../images/service-images';
+
+
+// Media query breakpoints
+
+$brk-narrow 			: '(min-width: 768px)';
+$brk-wide   			: '(min-width: 1024px)';

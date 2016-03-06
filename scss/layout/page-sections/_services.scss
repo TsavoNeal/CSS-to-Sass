@@ -1,0 +1,22 @@
+#services {
+	background-color: $color-trt;
+	padding-bottom: 5%;
+	@media #{$brk-narrow} {
+		overflow: hidden; 
+	}	
+}
+
+.service {
+	@media #{$brk-narrow} {
+		width: 33%;
+		float: left;
+	}		
+}
+
+.service-img {
+	width: 40%;
+	@media #{$brk-narrow} {
+		width: 60%; 
+	}	
+}
+

@@ -1,0 +1,55 @@
+/* Header Layout -------------------- */
+
+%small-padding {
+	padding: 5%;
+}
+
+#top {
+	@media #{$brk-narrow} {
+		padding-top: 5%;		
+	}
+	@media #{$brk-wide} {
+		float: left;
+		padding-top: 1%;
+		padding-left: 2.5%;
+	}	
+}
+
+.main-nav {
+	font-family: $stack-oswald;
+	ul {
+		list-style-type: none;
+		margin-bottom: 1%;
+		@media #{$brk-narrow} {
+			margin-bottom: 1%;
+		}
+	}
+}	
+
+.navigation {
+	text-transform: uppercase;
+	@extend %small-padding;
+		@media #{$brk-narrow} {
+			padding: 2.5%;
+			margin-bottom: 5%;
+		}
+		@media #{$brk-wide} {
+			padding-top: 5%;
+	}
+
+	li {
+	background-color: $white;
+	margin-bottom: 2.5%;
+	@extend %small-padding;
+	font-weight: bold;
+		@media #{$brk-narrow} {
+			display: inline;
+			background-color: $color-prim;
+			font-size: 1em;
+			padding: 2%;		
+		}
+
+	}		
+
+}
+

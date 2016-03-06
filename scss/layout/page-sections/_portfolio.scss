@@ -1,0 +1,27 @@
+#portfolio {
+	background-color: $color-sec; 
+		@media #{$brk-narrow} {
+			overflow: hidden; 
+		}
+}
+
+.portfolio-text {
+	padding: 2.5% 5% 10% 5%;
+}
+
+.portfolio-img {
+	width: 80%;
+		@media #{$brk-narrow} {
+			width: 95%; 
+		}	
+}
+
+.portfolio-item {
+	@media #{$brk-narrow} {
+		width: 50%;
+		float: left;	
+	}
+	@media #{$brk-wide} {
+		width: 33%;
+	}
+}

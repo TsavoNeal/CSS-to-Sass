@@ -1,0 +1,5 @@
+#toggle-nav {
+	@media #{$brk-narrow} {
+		display: none;
+	}
+}

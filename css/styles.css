@@ -1,0 +1,186 @@
+/* Base Styles -------------------- */
+body {
+  text-align: center; }
+
+@media (min-width: 1024px) {
+  nav {
+    text-align: center;
+    float: right;
+    width: 45%; } }
+
+body {
+  background-color: #FFD6A0;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #4a4a4a; }
+
+a {
+  text-decoration: none; }
+
+h2 {
+  padding: 2.5% 0% 2.5% 0%;
+  font-size: 1em; }
+  @media (min-width: 768px) {
+    h2 {
+      padding: 3% 0% 3% 0%; } }
+
+footer {
+  padding: 5% 0% 10% 0%; }
+  @media (min-width: 768px) {
+    footer {
+      padding: 2.5% 0% 7.5% 0%; } }
+  @media (min-width: 1024px) {
+    footer {
+      padding: 2.5% 0% 5% 0%; } }
+
+/* Header Layout -------------------- */
+.navigation, .navigation li {
+  padding: 5%; }
+
+@media (min-width: 768px) {
+  #top {
+    padding-top: 5%; } }
+@media (min-width: 1024px) {
+  #top {
+    float: left;
+    padding-top: 1%;
+    padding-left: 2.5%; } }
+
+.main-nav {
+  font-family: "Oswald", Helvetica, Arial, sans-serif; }
+  .main-nav ul {
+    list-style-type: none;
+    margin-bottom: 1%; }
+    @media (min-width: 768px) {
+      .main-nav ul {
+        margin-bottom: 1%; } }
+
+.navigation {
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .navigation {
+      padding: 2.5%;
+      margin-bottom: 5%; } }
+  @media (min-width: 1024px) {
+    .navigation {
+      padding-top: 5%; } }
+  .navigation li {
+    background-color: #ffffff;
+    margin-bottom: 2.5%;
+    font-weight: bold; }
+    @media (min-width: 768px) {
+      .navigation li {
+        display: inline;
+        background-color: #FFD6A0;
+        font-size: 1em;
+        padding: 2%; } }
+
+/* Footer Layout -------------------- */
+.bottom-name,
+.bottom-back-to-top,
+.bottom-menu {
+  font-weight: bold; }
+
+.bottom-menu {
+  display: none; }
+  @media (min-width: 768px) {
+    .bottom-menu {
+      display: initial; } }
+
+.bottom-name {
+  float: left; }
+
+.bottom-menu,
+.bottom-back-to-top {
+  float: right; }
+
+@media (min-width: 768px) {
+  .bottom-back-to-top {
+    display: none; } }
+
+.intro {
+  margin-bottom: 7.5%; }
+  @media (min-width: 768px) {
+    .intro {
+      font-size: 1.25em; } }
+  @media (min-width: 1024px) {
+    .intro {
+      display: inline-block; } }
+
+.intro-text {
+  padding: 7.5%; }
+  @media (min-width: 768px) {
+    .intro-text {
+      width: 50%;
+      padding: 0% 5% 10% 2.5%;
+      text-align: left; } }
+
+.student-img {
+  width: 80%; }
+  @media (min-width: 768px) {
+    .student-img {
+      float: right;
+      width: 40%;
+      padding-right: 2.5%; } }
+  @media (min-width: 1024px) {
+    .student-img {
+      padding-top: 2%; } }
+
+#portfolio {
+  background-color: #C7E3FB; }
+  @media (min-width: 768px) {
+    #portfolio {
+      overflow: hidden; } }
+
+.portfolio-text {
+  padding: 2.5% 5% 10% 5%; }
+
+.portfolio-img {
+  width: 80%; }
+  @media (min-width: 768px) {
+    .portfolio-img {
+      width: 95%; } }
+
+@media (min-width: 768px) {
+  .portfolio-item {
+    width: 50%;
+    float: left; } }
+@media (min-width: 1024px) {
+  .portfolio-item {
+    width: 33%; } }
+
+#services {
+  background-color: #A9C59D;
+  padding-bottom: 5%; }
+  @media (min-width: 768px) {
+    #services {
+      overflow: hidden; } }
+
+@media (min-width: 768px) {
+  .service {
+    width: 33%;
+    float: left; } }
+
+.service-img {
+  width: 40%; }
+  @media (min-width: 768px) {
+    .service-img {
+      width: 60%; } }
+
+#contact {
+  padding-bottom: 5%; }
+
+#contact p {
+  padding: 0 5% 0 5%; }
+  @media (min-width: 768px) {
+    #contact p {
+      padding-right: 20%;
+      padding-left: 20%; } }
+
+.contact-info {
+  padding-top: 5%; }
+
+@media (min-width: 768px) {
+  #toggle-nav {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */

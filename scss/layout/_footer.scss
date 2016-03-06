@@ -1,0 +1,33 @@
+/* Footer Layout -------------------- */
+
+%bold {
+	font-weight: bold;
+}
+
+.bottom-name,
+.bottom-back-to-top,
+.bottom-menu {
+	@extend %bold;
+}
+
+.bottom-menu {
+	display: none;
+		@media #{$brk-narrow} {
+			display: initial;
+		}
+}
+
+.bottom-name {
+	float: left;
+}
+
+.bottom-menu,
+.bottom-back-to-top {
+	float: right;
+}
+
+.bottom-back-to-top {
+	@media #{$brk-narrow} {
+		display: none;
+	}
+}

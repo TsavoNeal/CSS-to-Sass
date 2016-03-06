@@ -1,0 +1,46 @@
+/* Base Styles -------------------- */
+
+%center {
+	text-align: center;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+	padding: $top $right $bottom $left;
+}
+
+nav {
+	@media #{$brk-wide} {
+		text-align: center;
+		float: right;
+		width: 45%;
+	}
+}
+
+body {
+	background-color: $color-prim;
+	@extend %center;
+	font-family: $stack-raleway;
+	color: $grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	@include padding(2.5%, 0%, 2.5%, 0%);
+	font-size: 1em;
+		@media #{$brk-narrow} {
+			@include padding(3%, 0%, 3%, 0%);
+		}
+}
+
+footer {
+	@include padding (5%, 0%, 10%, 0%);
+		@media #{$brk-narrow} {
+			@include padding(2.5%, 0%, 7.5%, 0%);
+		}
+		@media #{$brk-wide} {
+			@include padding(2.5%, 0%, 5%, 0%);		
+		}
+}
