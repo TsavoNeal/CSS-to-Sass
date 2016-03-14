@@ -5,6 +5,7 @@
 }
 
 #top {
+	@extend %small-padding;
 	@media #{$brk-narrow} {
 		padding-top: 5%;		
 	}
@@ -45,7 +46,7 @@
 		@media #{$brk-narrow} {
 			display: inline;
 			background-color: $color-prim;
-			font-size: 1em;
+			font-size: $responsive-font;
 			padding: 2%;		
 		}
 
