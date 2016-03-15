@@ -1,7 +1,7 @@
 .intro {
 	margin-bottom: 7.5%;
 		@media #{$brk-narrow} {
-			font-size: 1.25em;
+			font-size: $responsive-font;
 		}
 		@media #{$brk-wide} {
 			display: inline-block;
